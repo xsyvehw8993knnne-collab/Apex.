@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Apex Boost</string>
+    <string name="app_subtitle">محرك مساحة الألعاب</string>
+
+    <!-- Bottom Navigation -->
+    <string name="nav_home">الرئيسية</string>
+    <string name="nav_library">المكتبة</string>
+    <string name="nav_monitor">المراقبة</string>
+    <string name="nav_settings">الإعدادات</string>
+
+    <!-- Home / Command Center -->
+    <string name="home_select_game_prompt">أضف لعبة من مكتبتك لتجهيز نواة التعزيز</string>
+    <string name="home_go_to_library">فتح مكتبة الألعاب</string>
+    <string name="home_selected_target">الهدف النشط</string>
+    <string name="home_start_boost">ابدأ التعزيز</string>
+    <string name="home_boosting_now">جاري شحن النواة…</string>
+    <string name="home_session_active">التعزيز نشط</string>
+    <string name="home_launch_again">تشغيل اللعبة</string>
+    <string name="home_end_session">إنهاء الجلسة</string>
+    <string name="home_configure_game">ضبط البروفايل</string>
+    <string name="home_quick_overlay">النافذة العائمة</string>
+    <string name="home_quick_dnd">عدم الإزعاج</string>
+    <string name="home_last_boost_report">تقرير آخر تعزيز فعلي</string>
+    <string name="home_ram_reclaimed">الرام المحرر</string>
+    <string name="home_processes_trimmed">تطبيقات تم تقليصها</string>
+    <string name="home_adpf_hint">جلسة ADPF</string>
+    <string name="home_game_mode_state">وضع اللعبة</string>
+    <string name="home_dnd_applied">كتم الإشعارات</string>
+    <string name="home_brightness_applied">تثبيت السطوع</string>
+    <string name="home_switch_game">اختر لعبة</string>
+
+    <!-- Telemetry Labels -->
+    <string name="metric_fps">الإطارات / الهرتز</string>
+    <string name="metric_temp">الحرارة</string>
+    <string name="metric_ram">الذاكرة RAM</string>
+    <string name="metric_cpu">المعالج / الحرارة</string>
+    <string name="metric_battery">البطارية</string>
+    <string name="metric_cores">أنوية المعالج</string>
+    <string name="metric_refresh_rate">تردد الشاشة</string>
+    <string name="metric_unavailable">مقيد من النظام</string>
+    <string name="metric_thermal_headroom">الحمل الحراري</string>
+    <string name="metric_cpu_freq">تردد النواة 0</string>
+    <string name="metric_voltage">الجهد</string>
+    <string name="metric_current">التيار</string>
+    <string name="metric_charging">قيد الشحن</string>
+    <string name="metric_discharging">على البطارية</string>
+
+    <!-- Library Screen -->
+    <string name="library_title">مكتبة الألعاب</string>
+    <string name="library_tab_saved">مكتبتي (%1$d)</string>
+    <string name="library_tab_installed">المثبتة (%1$d)</string>
+    <string name="library_search_hint">ابحث عن لعبة أو حزمة…</string>
+    <string name="library_filter_games_only">الألعاب فقط</string>
+    <string name="library_filter_all_apps">كل التطبيقات</string>
+    <string name="library_badge_game">لعبة</string>
+    <string name="library_badge_app">تطبيق</string>
+    <string name="library_add">إضافة</string>
+    <string name="library_added">مضافة</string>
+    <string name="library_remove">إزالة</string>
+    <string name="library_configure">ضبط</string>
+    <string name="library_select">تحديد</string>
+    <string name="library_empty_saved_title">لا توجد ألعاب مضافة بعد</string>
+    <string name="library_empty_saved_desc">انتقل إلى تبويب المثبتة لاختيار ألعابك وتخصيص إعدادات الأداء لكل لعبة.</string>
+    <string name="library_empty_search">لم يتم العثور على تطبيقات مطابقة.</string>
+
+    <!-- Per-Game Config Screen -->
+    <string name="config_title">إعدادات اللعبة</string>
+    <string name="config_boost_level">مستوى التعزيز</string>
+    <string name="config_level_balanced">متوازن</string>
+    <string name="config_level_balanced_desc">تنظيف خفيف للرام وتفعيل مراقبة ADPF مع الحفاظ على البطارية.</string>
+    <string name="config_level_high">عالي</string>
+    <string name="config_level_high_desc">إنهاء العمليات الخلفية القابلة للإنهاء وتقليل زمن استجابة ADPF وعدم الإزعاج.</string>
+    <string name="config_level_extreme">أقصى</string>
+    <string name="config_level_extreme_desc">تنظيف شامل للخلفية وأولوية ADPF القصوى ووضع Game Mode عبر Shizuku إن توفر.</string>
+    <string name="config_keep_screen_on">إبقاء الشاشة مضيئة</string>
+    <string name="config_keep_screen_on_desc">يحافظ على إضاءة الشاشة نشطة عبر نافذة المراقبة أثناء اللعب.</string>
+    <string name="config_lock_brightness">قفل السطوع</string>
+    <string name="config_lock_brightness_desc">يثبت سطوع الشاشة عند تشغيل اللعبة ويعيده تلقائياً بعد الانتهاء (يتطلب تعديل إعدادات النظام).</string>
+    <string name="config_brightness_value">مستوى السطوع المستهدف: %1$d%%</string>
+    <string name="config_auto_dnd">وضع عدم الإزعاج</string>
+    <string name="config_auto_dnd_desc">يكتم الإشعارات والمكالمات أثناء اللعب ويعيد الوضع السابق عند الخروج.</string>
+    <string name="config_floating_overlay">شاشة المراقبة العائمة</string>
+    <string name="config_floating_overlay_desc">يعرض الإطارات والحرارة والرام والبطارية مباشرة فوق اللعبة.</string>
+    <string name="config_game_mode_api">وضع Game Mode بالنظام (أندرويد 12+)</string>
+    <string name="config_save_back">تم</string>
+
+    <!-- Monitor Screen -->
+    <string name="monitor_title">المراقبة المباشرة</string>
+    <string name="monitor_overlay_card_title">النافذة العائمة للألعاب</string>
+    <string name="monitor_overlay_active">خدمة المراقبة العائمة تعمل</string>
+    <string name="monitor_overlay_inactive">النافذة العائمة متوقفة</string>
+    <string name="monitor_toggle_start">تشغيل النافذة العائمة</string>
+    <string name="monitor_toggle_stop">إيقاف النافذة العائمة</string>
+    <string name="monitor_grant_overlay">منح إذن الظهور فوق التطبيقات</string>
+    <string name="monitor_thermal_status">الحالة الحرارية</string>
+    <string name="monitor_honesty_title">شفافية قراءة العتاد</string>
+    <string name="monitor_honesty_body">جميع الأرقام مقروءة فعلياً من واجهات النظام الرسمية بدون أي قيم وهمية. مقياس FPS/Hz يقرأ معدل تحديث الشاشة وإطارات المركّب عبر Choreographer؛ أما قراءة إطارات SurfaceFlinger الداخلية للعبة أخرى وبعض ترددات المعالج فهي مقيدة بـ SELinux في أندرويد دون روت إلا عند توفر Shizuku.</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_title">إعدادات النظام</string>
+    <string name="settings_language">لغة التطبيق</string>
+    <string name="settings_lang_system">لغة النظام</string>
+    <string name="settings_lang_en">English</string>
+    <string name="settings_lang_ar">العربية (RTL)</string>
+    <string name="settings_permissions_section">سجل الأذونات</string>
+    <string name="settings_open_wizard">فتح معالج الأذونات</string>
+    <string name="settings_privilege_section">جسر Shizuku / Root (اختياري)</string>
+    <string name="settings_shizuku_enable">تفعيل أوامر Game Mode عبر Shizuku/Root</string>
+    <string name="settings_shizuku_desc">اختياري: ينفّذ cmd game mode performance فقط إذا كان Shizuku أو صلاحيات الروت متوفرة ومصرّحاً بها.</string>
+    <string name="settings_status_ready">متوفر وجاهز</string>
+    <string name="settings_status_unavailable">الوضع الرسمي القياسي (غير متوفر)</string>
+    <string name="settings_capabilities_title">ما يستطيع التطبيق فعله وحدود أندرويد</string>
+    <string name="settings_capabilities_body">• تنظيف الخلفية يستخدم ActivityManager.killBackgroundProcesses() ويحسب الذاكرة المحررة فعلياً.\n• PerformanceHintManager (ADPF) يضبط أولوية خيوط خدمة المراقبة على أندرويد 12+.\n• تغيير GameManager.setGameMode() لتطبيقات أخرى مقيد بالنظام للوحة ألعاب الشركة المصنعة أو ADB/Shizuku.</string>
+
+    <!-- Permission Wizard -->
+    <string name="wizard_title">معالج صلاحيات النظام</string>
+    <string name="wizard_subtitle">امنح الأذونات خطوة بخطوة ليتمكن Apex Boost من مراقبة العتاد وحماية جلسات اللعب.</string>
+    <string name="wizard_step_counter">الخطوة %1$d من %2$d</string>
+    <string name="wizard_granted">ممنوح</string>
+    <string name="wizard_pending">مطلوب</string>
+    <string name="wizard_optional">اختياري</string>
+    <string name="wizard_grant_btn">منح الإذن</string>
+    <string name="wizard_next_btn">التالي</string>
+    <string name="wizard_skip_btn">تخطي</string>
+    <string name="wizard_finish_btn">الدخول لمساحة الألعاب</string>
+
+    <string name="perm_notifications_title">إشعارات المراقبة الحية</string>
+    <string name="perm_notifications_desc">مطلوب في أندرويد 13+ لتشغيل خدمة المراقبة الأمامية باستقرار أثناء اللعب.</string>
+    <string name="perm_usage_title">الوصول إلى بيانات الاستخدام (Usage Access)</string>
+    <string name="perm_usage_desc">يكتشف خروجك من اللعبة لإرجاع السطوع وعدم الإزعاج تلقائياً، ويحدد التطبيقات الخلفية النشطة لتقليصها.</string>
+    <string name="perm_overlay_title">الظهور فوق التطبيقات الأخرى</string>
+    <string name="perm_overlay_desc">يعرض شاشة المراقبة العائمة (FPS/Hz، الحرارة، الرام، البطارية) فوق اللعبة.</string>
+    <string name="perm_dnd_title">الوصول لعدم الإزعاج (DND)</string>
+    <string name="perm_dnd_desc">يكتم الإشعارات والمكالمات فور الضغط على ابدأ التعزيز ويعيدها لوضعها السابق بعد اللعب.</string>
+    <string name="perm_battery_title">تجاهل تحسين البطارية</string>
+    <string name="perm_battery_desc">يمنع النظام من إغلاق خدمة المراقبة والنافذة العائمة أثناء المباريات الطويلة.</string>
+    <string name="perm_write_settings_title">تعديل إعدادات النظام</string>
+    <string name="perm_write_settings_desc">اختياري: مطلوب فقط لميزة قفل السطوع المخصص لكل لعبة.</string>
+
+    <!-- Foreground Service & Overlay -->
+    <string name="service_notif_channel">مراقبة تعزيز الألعاب</string>
+    <string name="service_notif_title">Apex Boost نشط — %1$s</string>
+    <string name="service_notif_body">يراقب الحرارة والرام والإطارات. اضغط إنهاء الجلسة لاستعادة الإعدادات.</string>
+    <string name="service_action_stop">إنهاء الجلسة</string>
+    <string name="overlay_game_label">معزز</string>
+    <string name="overlay_dnd_on">كتم مفعل</string>
+    <string name="overlay_dnd_off">كتم متوقف</string>
+    <string name="overlay_exit">إغلاق</string>
+
+    <!-- Game Mode / Thermal Enums -->
+    <string name="thermal_none">بارد</string>
+    <string name="thermal_light">دافئ</string>
+    <string name="thermal_moderate">متوسط</string>
+    <string name="thermal_severe">ساخن</string>
+    <string name="thermal_critical">حرج</string>
+    <string name="gamemode_standard">قياسي</string>
+    <string name="gamemode_performance">أداء</string>
+    <string name="gamemode_battery">بطارية</string>
+    <string name="gamemode_unsupported">غير مدعوم</string>
+
+    <!-- Floating Orb, Pro Assistant & Headshot Assist -->
+    <string name="library_activate">تفعيل</string>
+    <string name="overlay_hide_corner">إخفاء</string>
+    <string name="overlay_pro_assistant">مساعد المحترف</string>
+    <string name="overlay_pro_assistant_on">المساعد مفعل</string>
+    <string name="overlay_headshot">الهيد شوت</string>
+    <string name="overlay_headshot_on">الهيد شوت مفعل</string>
+    <string name="overlay_headshot_reset">إعادة ضبط</string>
+    <string name="overlay_confirm_btn">تأكيد</string>
+    <string name="overlay_calibrate_hint">اسحب على زر الإطلاق ثم اضغط 3 مرات</string>
+    <string name="overlay_head_lock_badge">تثبيت الرأس</string>
+    <string name="overlay_vision_active">الرؤية الذكية نشطة</string>
+    <string name="overlay_vision_note">توجيه بصري فقط (بدون روت)</string>
+    <string name="config_headshot_calibrated">نقطة الهيد شوت مثبتة (تمرير لمس حر)</string>
+    <string name="config_headshot_uncalibrated">غير معايرة (اضبطها من النافذة العائمة)</string>
+</resources>
